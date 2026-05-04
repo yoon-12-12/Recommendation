@@ -10,6 +10,41 @@
 <body>
     <div class="container">
         <h1>오늘 뭐 먹지? 🍱</h1>
+
+        <!-- 음료 추천 페이지 이동 버튼 -->
+<div style="text-align: center; margin: 20px;">
+    <a href="https://yoon-12-12.github.io/Recommendation/drinks.html" class="move-btn">
+        🍹 음료 추천 룰렛 돌리러 가기
+    </a>
+</div>
+
+<style>
+    .move-btn {
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background: linear-gradient(45deg, #ff6b6b, #f06595); /* 화사한 핑크-레드 그라데이션 */
+        border-radius: 50px;
+        box-shadow: 0 4px 15px rgba(240, 101, 149, 0.4);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        border: none;
+    }
+
+    .move-btn:hover {
+        transform: translateY(-3px); /* 마우스 올리면 살짝 위로 */
+        box-shadow: 0 6px 20px rgba(240, 101, 149, 0.6);
+        background: linear-gradient(45deg, #f06595, #ff6b6b);
+    }
+
+    .move-btn:active {
+        transform: translateY(1px); /* 클릭 시 눌리는 효과 */
+    }
+</style>
         
         <!-- 필터 섹션: 중복 선택 및 추가 카테고리 포함 -->
         <div class="filter-section">
